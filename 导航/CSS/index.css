@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		padding: 0;
+		margin: 0 auto;
+}
+	.me{
+		background: url("../图片/ttq.jpeg") center 0 repeat-x;
+		background-size: 220px;
+		height: 200px;
+		margin-top:-50px;
+		}
+	.h_title{
+		font-size:100px;
+		line-height:34px;
+		font-weight:bolder;
+		text-align:center;
+		padding:0 0 40px;
+		font-family: 宋体;
+	    margin-top: 70px;
+		color: antiquewhite;
+	
+	}
+	.h_title1{
+		font-size:50px;
+		line-height:34px;
+		font-weight:bolder;
+		text-align:center;
+		padding:0 0 40px;
+		font-family: 宋体;
+	    margin-top: -100px;
+		color: antiquewhite;
+	
+	}
+		
+	.character_list{
+		width:1200px;
+		height:220px;
+		position:relative;
+		zoom:1;
+		margin: 0 auto;
+		margin-top: -50px;
+	
+	}
+ 	.character_list li{
+	
+		display:inline;
+		width:168px;
+		text-align:center;
+		margin:0 60px 40px;
+		position:relative;
+	}
+ 	.character_list li a{
+		display:block;
+		text-decoration: none;
+	}
+ 	.character_list li img{
+		width:168px;
+		display:inline-block;
+		border-radius:10em;
+}
+ 	.character_list li b{
+		font-size:25px;
+		display:block;
+		font-weight:normal;
+		margin-top:20px;
+		font-family: 华文彩云;
+		color:#FDCEB0;
+	
+	}
+ 	.character_list li a:hover {
+    	cursor: pointer;
+   		 position: relative;
+   		 text-align: center;
+    	top: -16%;
+   		 transform: translate(0px, -16%);
+    	transition: .2s all;
+	
+}
+	.character_list li a:hover img{
+		width:168px;
+		transition: 0.2s all;
+		box-shadow:6px 9px 10px rgba(0,0,0,0.2); 
+		
+	}
+	.character_list li a:hover b{
+		padding:0;
+		font-weight:bold;
+	
+	}
