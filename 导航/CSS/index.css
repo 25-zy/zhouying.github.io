@@ -4,12 +4,7 @@
 		padding: 0;
 		margin: 0 auto;
 }
-	.me{
-		background: url("../图片/ttq.jpeg") center 0 repeat-x;
-		background-size: 220px;
-		height: 200px;
-		margin-top:-50px;
-		}
+	
 	.h_title{
 		font-size:100px;
 		line-height:34px;
@@ -17,8 +12,8 @@
 		text-align:center;
 		padding:0 0 40px;
 		font-family: 宋体;
-	    margin-top: 70px;
-		color: antiquewhite;
+	    margin-top: 160px;
+		color:#EFD8B9;
 	
 	}
 	.h_title1{
@@ -29,7 +24,7 @@
 		padding:0 0 40px;
 		font-family: 宋体;
 	    margin-top: -100px;
-		color: antiquewhite;
+		color:#EFD8B9;
 	
 	}
 		
@@ -39,13 +34,13 @@
 		position:relative;
 		zoom:1;
 		margin: 0 auto;
-		margin-top: -50px;
+		margin-top: -20px;
 	
 	}
  	.character_list li{
 	
 		display:inline;
-		width:168px;
+		width:280px;
 		text-align:center;
 		margin:0 60px 40px;
 		position:relative;
@@ -88,3 +83,4 @@
 		font-weight:bold;
 	
 	}
+
