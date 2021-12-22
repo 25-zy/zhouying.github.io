@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>灯开关</title>
+    <style type="text/css">
+        div{
+            width:400px;
+            margin:0 auto;
+			margin-top: 200px;
+        }
+        img
+        {
+            width:150px;
+        }
+    </style>
+    <script type="text/javascript">
+        function light_open()
+        {
+            let light_image=document.getElementById("light_img");
+            light_image.src="light_on.png";
+        }
+        function light_close()
+        {
+            let light_image=document.getElementById("light_img");
+            light_image.src="light_off.png";
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="light_close()" >关灯</button>
+    <img id="light_img" src="light_off.png" alt="#" />
+    <button onclick="light_open()" >开灯</button>
+</div>
+</body>
+</html>

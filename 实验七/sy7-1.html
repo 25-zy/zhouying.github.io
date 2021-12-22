@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>计算三个整数的平均值</title>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+function input(){
+    //利用document对象，获得页面中文本框中的输入值
+	let x1=parseInt(document.getElementById('x1').value);
+	let x2=parseInt(document.getElementById('x2').value);
+	let x3=parseInt(document.getElementById('x3').value);
+	let aver=(x1+x2+x3)/3;//调用compute函数计算对应的面积
+	alert("平均值为："+aver);
+}
+</script>
+</head>
+<body style="margin-top: 200px;margin-left: 650px">
+  <form >
+  <label>输入三个整数：</label><br>
+  <label for="x1"></label><input type="number" name="x1" id="x1"><br>
+  <label for="x2"></label><input type="number" name="x2" id="x2"><br>
+  <label for="x3"></label><input type="number" name="x3" id="x3"><br>
+  <input type="button" value="计算平均值!" onclick="input()" >
+</form>
+</body>
+</html>
